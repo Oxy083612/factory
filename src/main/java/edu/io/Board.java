@@ -1,5 +1,7 @@
 package edu.io;
 
+import edu.io.token.*;
+
 public class Board {
 
     final private int DEFAULT_BOARD_WIDTH = 10;

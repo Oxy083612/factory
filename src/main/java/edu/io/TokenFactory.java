@@ -1,4 +1,9 @@
 package edu.io;
+import edu.io.token.EmptyToken;
+import edu.io.token.FoodToken;
+import edu.io.token.GoldToken;
+import edu.io.token.ShovelToken;
+
 import java.util.HashMap;
 import java.util.Map;
 

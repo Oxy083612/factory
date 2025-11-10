@@ -1,9 +1,11 @@
 package edu.io;
 
+import edu.io.token.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class NewTokenFactory {
+public class TokenFactoryNew {
 
     static final private int MAX_RANDOM = 10;
 

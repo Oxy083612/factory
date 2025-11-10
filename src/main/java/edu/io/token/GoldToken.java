@@ -1,10 +1,10 @@
-package edu.io;
+package edu.io.token;
 
-public class FoodToken extends Token {
+public class GoldToken extends Token {
     final public int amount;
 
-    public FoodToken(int amount){
-        super("Food");
+    public GoldToken(int amount){
+        super("Gold");
         this.amount = amount;
     }
 
