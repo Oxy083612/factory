@@ -1,8 +1,17 @@
 package edu.io;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Board board = new Board(15, 15);
+
+        while(!board.isBoardFull()){
+            board.appendToken(TokenFactory.createGoldToken(10));
+        }
+        board.printBoard();
+
+        Token token1 = board.getRandomToken();
+        Token token2 = board.getRandomToken();
+        System.out.println(token1);
+        System.out.println(token2);
     }
 }
